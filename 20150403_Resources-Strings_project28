@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Project28</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="checkBox1">Samleje</string>
+    <string name="checkBox2">Smerter i ryggen</string>
+    <string name="checkBox3">Smerter i hovedet</string>
+    <string name="checkBox4">Smerter i brysterne</string>
+    <string name="checkBox5">Menstarationssmerter</string>
+    <string name="checkBox6">Ovulationssmerter</string>
+    <string name="checkBox7">Feber</string>
+    <string name="checkBox8">Diaré</string>
+    <string name="checkBox9">Gas</string>
+    <string name="checkBox10">Blærebetændelse</string>
+    <string name="checkBox11">Acne</string>
+    <string name="checkBox12">Kvalme</string>
+    <string name="checkBox13">Opkast</string>
+    <string name="checkBox14">Nervøsitet</string>
+    <string name="checkBox15">Træthed</string>
+    <string name="checkBox16">Mangel på appetit</string>
+    <string name="checkBox17">Øgelse af appetit</string>
+    <string name="checkBox18">Mangel på sexlyst</string>
+    <string name="checkBox19">Øgelse af sexlyst</string>
+    <string name="checkBox20">Har indtaget medicin</string>
+    <string name="checkBox21">Ægløsningstest</string>
+    <string name="checkBox22">Graviditetstest</string>
+    <string name="checkBox23">Monitor</string>
+    <string name="spinner5">Vælg her</string>
+    <string name="submitdata">Okay, Skriv mine data</string>
+</resources>
