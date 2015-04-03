@@ -1,0 +1,289 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <DatePicker
+            android:layout_width="match_parent"
+            android:layout_height="203dp"
+            android:calendarViewShown="false"
+            android:spinnersShown="true"
+            android:datePickerMode="spinner"
+            android:id="@+id/datePicker"
+            android:soundEffectsEnabled="false" />
+
+
+        <Space
+            android:layout_width="20px"
+            android:layout_height="32dp"
+            android:soundEffectsEnabled="false" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="42dp"
+            android:paddingStart="24dp"
+            android:paddingEnd="12dp">
+
+            <EditText
+                android:layout_width="120dp"
+                android:layout_height="42dp"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/editText"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="40dp"
+                android:layout_marginEnd="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:textColor="#515151" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Temperatur"
+                android:id="@+id/textView4"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#515151" />
+        </RelativeLayout>
+
+        <Space
+            android:layout_width="20px"
+            android:layout_height="64px" />
+
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner4" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:prompt="@string/spinner5"
+            android:id="@+id/spinner5" />
+
+        <Space
+            android:layout_width="20px"
+            android:layout_height="32dp" />
+
+        <RadioGroup
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox1"
+            android:text="@string/checkBox1"
+            android:textColor="#515151" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkBox2"
+            android:textColor="#515151"
+            android:id="@+id/checkBox2" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkBox3"
+            android:textColor="#515151"
+            android:id="@+id/checkBox3" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkBox4"
+            android:textColor="#515151"
+            android:id="@+id/checkBox4" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkBox5"
+            android:textColor="#515151"
+            android:id="@+id/checkBox5" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkBox6"
+            android:textColor="#515151"
+            android:id="@+id/checkBox6" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkBox7"
+            android:textColor="#515151"
+            android:id="@+id/checkBox7" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkBox8"
+            android:textColor="#515151"
+            android:id="@+id/checkBox8" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkBox9"
+            android:textColor="#515151"
+            android:id="@+id/checkBox9" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkBox10"
+            android:textColor="#515151"
+            android:id="@+id/checkBox10" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkBox11"
+            android:textColor="#515151"
+            android:id="@+id/checkBox11" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checkBox12"
+                android:textColor="#515151"
+                android:id="@+id/checkBox12" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checkBox13"
+                android:textColor="#515151"
+                android:id="@+id/checkBox13" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checkBox14"
+                android:textColor="#515151"
+                android:id="@+id/checkBox14" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checkBox15"
+                android:textColor="#515151"
+                android:id="@+id/checkBox15" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checkBox16"
+                android:textColor="#515151"
+                android:id="@+id/checkBox16" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checkBox17"
+                android:textColor="#515151"
+                android:id="@+id/checkBox17" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checkBox18"
+                android:textColor="#515151"
+                android:id="@+id/checkBox18" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checkBox19"
+                android:textColor="#515151"
+                android:id="@+id/checkBox19" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checkBox20"
+                android:textColor="#515151"
+                android:id="@+id/checkBox20" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checkBox21"
+                android:textColor="#515151"
+                android:id="@+id/checkBox21" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checkBox22"
+                android:textColor="#515151"
+                android:id="@+id/checkBox22" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checkBox23"
+                android:textColor="#515151"
+                android:id="@+id/checkBox23" />
+
+            <Space
+            android:layout_width="20px"
+            android:layout_height="32px" />
+
+
+</RadioGroup>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/editText2"
+            android:background="#dddddd"
+            android:autoText="false"
+            android:editable="true"
+            android:lines="4" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/submitdata"
+            android:id="@+id/submitdata"
+            android:capitalize="none" />
+
+    </LinearLayout>
+</ScrollView>
+
